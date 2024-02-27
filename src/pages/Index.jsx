@@ -3,8 +3,8 @@ import { ChakraProvider, Box, VStack, Heading, FormControl, FormLabel, Input, Bu
 import { FaSignInAlt, FaUserPlus, FaUpload } from "react-icons/fa";
 
 const Index = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("matt@apexrainc.com");
+  const [password, setPassword] = useState("Nala");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [images, setImages] = useState([]);
   const toast = useToast();
